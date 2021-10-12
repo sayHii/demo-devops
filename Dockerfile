@@ -1,7 +1,7 @@
 FROM openjdk:17-slim
 RUN apt update && apt upgrade -y && apt autoremove -y
-COPY jrebel.jar /jrebel.jar
-COPY libjrebel64.so /lib/libjrebel64.so
+COPY lib/jrebel.jar /jrebel.jar
+COPY lib/libjrebel64.so /lib/libjrebel64.so
 EXPOSE  8080
 WORKDIR /Tools/app
 COPY target/demo*.jar app.jar
