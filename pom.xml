@@ -13,9 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>demo-devops</name>
     <description>demo-devops</description>
-    <properties>
-        <java.version>17</java.version>
-    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -35,7 +33,6 @@
     </dependencies>
 
     <build>
-        <defaultGoal>compile</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
