@@ -10,7 +10,7 @@ public class TestController {
 
     @GetMapping("/")
     public Object test() {
-        return LocalDateTime.now();
+        return "13 - " + LocalDateTime.now();
     }
 
 }
